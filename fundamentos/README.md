@@ -1,1 +1,3 @@
-# Adicionando conteúdo aleatório como teste
+## Bloco relacionado a fundamentos 
+
+#### Exercícios ... Readme em construção;
