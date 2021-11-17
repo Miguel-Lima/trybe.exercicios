@@ -1,3 +1,3 @@
 # Loading
 
-# Bloco relacionado a Front-End
+# Bloco relacionado a Front-End;
