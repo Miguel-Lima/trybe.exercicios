@@ -1,1 +1,3 @@
-# Adicionando conteúdo aleatório como teste
+# Loading
+
+# Bloco relacionado a Front-End
