@@ -5,5 +5,8 @@ HTML
 CSS
 Javascript
 React
+Pull Request
+Versionamento
 Java
 PHP
+
