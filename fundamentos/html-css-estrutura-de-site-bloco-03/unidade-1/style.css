@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(0, 0, 0, 0.89);
+    color: snow;
+}
+
+.d {
+    color: rgb(233, 233, 233);
+}
+
+h1 {
+    color: green;
+}
+
+#descricao, #passagem, #habilidades {
+    color: green;
+}
+
+.nome {
+    color: green
+}
+
+#miguel {
+    border-radius: 60px;
+}
+
+.trybe {
+    color: green;
+}
+
+.link-imagem {
+    color: greenyellow;
+}
+
+#atencao {
+    color: red;
+}
+
+.aqui {
+    color: red;
+}
