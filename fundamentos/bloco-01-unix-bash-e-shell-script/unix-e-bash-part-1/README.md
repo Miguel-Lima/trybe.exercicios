@@ -40,7 +40,7 @@ HTML
 CSS
 JavaScript
 React
-SQL;
+SQL
 ```
 
 14. Mostre na tela as 5 primeiras skills do arquivo `skills.txt`.

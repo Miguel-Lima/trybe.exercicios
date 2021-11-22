@@ -1,3 +1,3 @@
-## Bloco relacionado a fundamentos 
+## Portfolio Web - Trybe
 
-#### Exercícios ... Readme em construção;
+#### Portfolio em constante desenvolvimento de estrutura.
