@@ -1,3 +1,3 @@
 ## Exercicios Trybe
 
-#### Repositório em constante mudança
+#### Repositório em constante mudança 🚀🚀🚀
