@@ -1,4 +1,5 @@
-const currentHour = 22
+// AND
+const currentHour = 4
 let message = ""
 
 if (currentHour >= 22) {
@@ -18,4 +19,14 @@ else if(currentHour >= 4 && currentHour <= 11 ) {
 }
 
 
-console.log(message);
+ console.log(message);
+
+
+// OR
+const weekDay = 'quarta-feira'
+
+if (weekDay === 'segunda-feira' || weekDay === 'terça-feira' || weekDay === 'quarta-feira' || weekDay === 'quinta-feira' || weekDay === 'sexta-feira') {
+    console.log('Oba, mais um dia de aprendizado na Trybe >:D');
+} else {
+    console.log('Finalmente, descanso merecido');
+}
