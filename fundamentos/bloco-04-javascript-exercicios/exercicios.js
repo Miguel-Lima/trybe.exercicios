@@ -193,4 +193,4 @@ if ((a % 2 === 0 || b % 2 === 0 || c % 2 ===0)) {
       impostoRenda = (baseSalary * 0.275) - 869.36
   }
 
-  console.log( baseSalary - impostoRenda);
+  
