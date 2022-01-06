@@ -13,33 +13,42 @@
 </head>
 
 <body>
+    <!-- Inicio da Página -->
     <header class="text-center">
         <h1 class="display-4">Formulário de preenchimento</h1>
         <p class="lead"><em>Preencha aqui seus dados e garanta já uma vaga em nosso estúdio 🔥</em></p>
     </header>
 
+
+    <!-- Dados do Cliente -->
+
     <form action="" method="get">
         <div class="container-sm">
             <div class="">
-                <label class="form-label" for="full-name">Nome</label>
-                <input class="form-control" type="text" id="full-name" name="nome" placeholder="Digite aqui..." required>
-            </br>
-                <label class="form-label" for="full-email">E-mail</label>
-                <input class="form-control" type="email" id="full-email" email="e-mail" placeholder="Digite aqui..." required>
-            </br>
-            <label class="form-label" for="full-email">Idade</label>
-            <input class="form-control" type="date" id="idade" age="idadE" placeholder="Digite aqui..." required>
+                <label class="form-label" for="full-name">Nome:</label>
+                <input class="form-control" type="text" id="full-name" name="nome" placeholder="Digite aqui..."
+                    required>
+                </br>
+                <label class="form-label" for="full-email">E-mail:</label>
+                <input class="form-control" type="email" id="full-email" email="e-mail" placeholder="Digite aqui..."
+                    required>
+                </br>
+                <label class="form-label" for="full-email">Idade:</label>
+                <input class="form-control" type="date" id="idade" age="idadE" placeholder="Digite aqui..." required>
             </div>
         </div>
 
-    </br>
+        </br>
+
+
+        <!-- Estilos de tatuagens -->
 
         <div class="container mb-3">
             <p class="lead">Estilos de Tatuagens 💀</p>
+
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="type" id="old-school" value="tattoostyle">
                 <label for="old-school">Old School 💈</label>
-                
             </div>
 
             <div class="form-check form-check-inline">
@@ -57,10 +66,26 @@
                 <label for="aquarela-tattoo">Aquarela 🎨</labe>
             </div>
 
-
-            </div>
         </div>
+
+
+        <!-- Colaboradores -->
+
+        <div class="container">
+            <label class="form-label" for="colaboradores">Colaboradores:</label>
+            <select class="form-select" name="colaboradores-tattoos" id="colaboradores">
+                <option value="a">Ana</option>
+                <option value="m">Miguel</option>
+                <option value="g">Grogu</option>
+            </select>
+        </div>
+
+
+
     </form>
+
+
+
     <script src="script.js"></script>
 </body>
 
