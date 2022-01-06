@@ -26,15 +26,15 @@
         <div class="container-sm">
             <div class="">
                 <label class="form-label" for="full-name">Nome:</label>
-                <input class="form-control" type="text" id="full-name" name="nome" placeholder="Digite aqui..."
-                    required>
+                <input class="form-control" type="text" id="full-name" name="nome" placeholder="Digite aqui..." required>
+                   
                 </br>
                 <label class="form-label" for="full-email">E-mail:</label>
-                <input class="form-control" type="email" id="full-email" email="e-mail" placeholder="Digite aqui..."
-                    required>
+                <input class="form-control" type="email" id="full-email" name="e-mail" placeholder="Digite aqui..." required>
+                   
                 </br>
                 <label class="form-label" for="full-email">Idade:</label>
-                <input class="form-control" type="date" id="idade" age="idadE" placeholder="Digite aqui..." required>
+                <input class="form-control" type="date" id="idade" name="idade" placeholder="Digite aqui..." required>
             </div>
         </div>
 
@@ -47,22 +47,22 @@
             <p class="lead">Estilos de Tatuagens 💀</p>
 
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="type" id="old-school" value="tattoostyle">
+                <input class="form-check-input" type="radio" name="tattoo-type" id="old-school" value="oldschool">
                 <label for="old-school">Old School 💈</label>
             </div>
 
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="type" id="black-tattoo" value="tattoostyle">
+                <input class="form-check-input" type="radio" name="tattoo-type" id="black-tattoo" value="blacktattoo">
                 <label for="black-tattoo">Black Dark 🕷</labe>
             </div>
 
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="type" id="realism-tattoo" value="tattoostyle">
+                <input class="form-check-input" type="radio" name="ttattoo-type" id="realism-tattoo" value="realismotattoo">
                 <label for="realism-tattoo">Realismo 👁️</labe>
             </div>
 
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="type" id="aquarela-tattoo" value="tattoostyle">
+                <input class="form-check-input" type="radio" name="tattoo-type" id="aquarela-tattoo" value="aquarelatattoo">
                 <label for="aquarela-tattoo">Aquarela 🎨</labe>
             </div>
 
@@ -74,14 +74,29 @@
         <div class="container">
             <label class="form-label" for="colaboradores">Colaboradores:</label>
             <select class="form-select" name="colaboradores-tattoos" id="colaboradores">
-                <option value="a">Ana</option>
-                <option value="m">Miguel</option>
-                <option value="g">Grogu</option>
+                <option value="Ana">Ana</option>
+                <option value="Miguel">Miguel</option>
+                <option value="Grogu">Grogu</option>
             </select>
         </div>
 
+        </br>
+        <!-- Data disponível -->
 
+        <div class="container">
+            <div class="form-check">
+                <label class="form-check-label" for="checkbox">Sua primeira vez?</label>
+                <input class="form-check-input" type="checkbox" name="first-time" id="checkbox">
+            </div>
+        </div>
 
+        </br>
+        <!-- Botão -->
+
+        <div class="container">
+            <button class="btn btn-success" type="submit">Enviar</button>
+            <button class="btn btn-dark" type="reset">Limpar</button>
+        </div>
     </form>
 
 
