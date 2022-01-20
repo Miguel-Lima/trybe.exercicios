@@ -7,9 +7,9 @@ const maquiagens = [
 
 // For tradicional
 
-// for (let i = 0; i < maquiagens.length; i += 1) {
-//     console.log(`O produto ${maquiagens[i].produto} custa R$:${maquiagens[i].price}`)
-// }
+for (let i = 0; i < maquiagens.length; i += 1) {
+    console.log(`O produto ${maquiagens[i].produto} custa R$:${maquiagens[i].price}`)
+}
 
 // ForEach
 
